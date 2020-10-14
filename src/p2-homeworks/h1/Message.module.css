@@ -1,0 +1,54 @@
+div, p, span {
+    padding: 0;
+    margin: 0;
+}
+
+.messageWrapper {
+    margin: 25px;
+    display: flex;
+}
+
+.avatarBox {
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    align-self: flex-end;
+}
+
+.avatar {
+    display: block;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 auto;
+
+}
+
+.messageBlock {
+    /*padding: 10px;*/
+    background: darkslategray;
+    display: flex;
+    border-radius: 10px 10px 10px 0px;
+    height: 100%;
+}
+
+.nameMessage {
+    padding: 10px;
+}
+
+.name {
+    font-weight: 700;
+    color: aqua;
+}
+
+.massage {
+    color: aliceblue;
+    font-weight: 500;
+}
+
+.time {
+    margin: 0 5px 5px 15px;
+    color: darkcyan;
+    font-weight: 500;
+    align-self: flex-end;
+
+}
